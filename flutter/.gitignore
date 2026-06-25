@@ -1,0 +1,4 @@
+# Dart/Flutter build and tool artifacts
+.dart_tool/
+build/
+pubspec.lock

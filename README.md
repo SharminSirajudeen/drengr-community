@@ -86,6 +86,19 @@ Add to `.cursor/mcp.json` in your project:
 
 ---
 
+## In-app SDK (Flutter)
+
+[`drengr_flutter_sdk`](https://pub.dev/packages/drengr_flutter_sdk) — zero-code in-process network capture for Flutter apps. One `Drengr.start()` records every HTTP request and response (`http`, Dio, `dart:io`) with secret/PII redaction, without touching your networking code.
+
+```yaml
+dependencies:
+  drengr_flutter_sdk: ^0.1.1
+```
+
+Source, changelog, and docs in [`flutter/`](flutter/). Apache-2.0 — the SDK is open; the rest of Drengr is proprietary.
+
+---
+
 ## Supported platforms
 
 | Platform | Architecture | Supported |
