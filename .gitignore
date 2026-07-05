@@ -1,7 +1,0 @@
-.DS_Store
-
-# Swift Package Manager (root Package.swift build output)
-.build/
-.swiftpm/
-DerivedData/
-xcuserdata/

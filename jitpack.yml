@@ -1,4 +1,0 @@
-jdk:
-  - openjdk17
-install:
-  - cd android && ./gradlew :drengr:publishToMavenLocal -x test
