@@ -1,0 +1,17 @@
+{
+  "name": "Drengr",
+  "displayName": "Drengr — GA4 Event Forwarder",
+  "description": "Server-side GTM tag that forwards every GA4-model event this container receives to Drengr, so it lands as a named, queryable event in Drengr's mobile/web analytics platform. No client-side SDK or code change required — just add the tag to a server container that already receives GA4 hits.",
+  "version": "1.0.0",
+  "category": "analytics",
+  "author": {
+    "name": "Drengr",
+    "url": "https://drengr.dev"
+  },
+  "source": "integrations/gtm-server-tag/drengr.tpl",
+  "requires": {
+    "containerType": "SERVER",
+    "permissions": ["read_event_data", "send_http", "logging"]
+  },
+  "notes": "Not affiliated with or verified by Google. Intended for the GTM Community Template Gallery once independently tested against a live server container (see README for manual-verification status)."
+}

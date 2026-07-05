@@ -86,16 +86,86 @@ Add to `.cursor/mcp.json` in your project:
 
 ---
 
-## In-app SDK (Flutter)
+## In-app SDKs
 
-[`drengr_flutter_sdk`](https://pub.dev/packages/drengr_flutter_sdk) — zero-code in-process network capture for Flutter apps. One `Drengr.start()` records every HTTP request and response (`http`, Dio, `dart:io`) with secret/PII redaction, without touching your networking code.
+Zero-code, in-process network capture: one call records every HTTP request/response
+with secret/PII redaction applied before anything leaves the device. No `track()`
+calls, no changes to your networking code. Available for Flutter, Web/React
+Native/Electron, iOS, and Android. Apache-2.0 — the SDKs are open; the rest of
+Drengr (the MCP server / CLI above) is proprietary.
+
+### Flutter
+
+[`drengr_flutter_sdk`](https://pub.dev/packages/drengr_flutter_sdk) on pub.dev.
 
 ```yaml
 dependencies:
   drengr_flutter_sdk: ^0.1.1
 ```
 
-Source, changelog, and docs in [`flutter/`](flutter/). Apache-2.0 — the SDK is open; the rest of Drengr is proprietary.
+Source, changelog, and docs in [`flutter/`](flutter/).
+
+### Web (Web, React Native, Electron)
+
+```bash
+npm install drengr-js
+```
+
+```ts
+import { Drengr } from 'drengr-js';
+
+Drengr.start({
+  ingestUrl: 'https://<ref>.supabase.co/functions/v1/ingest',
+  publishableKey: 'drengr_pk_…',
+  appPackage: 'com.example.app',
+});
+```
+
+Source and docs in [`js/`](js/).
+
+### iOS (Swift Package Manager)
+
+Xcode: **File → Add Package Dependencies…** and enter:
+
+```
+https://github.com/SharminSirajudeen/drengr-community.git
+```
+
+Or in `Package.swift`:
+
+```swift
+.package(url: "https://github.com/SharminSirajudeen/drengr-community.git", from: "0.11.0")
+```
+
+then add `"Drengr"` to your target's dependencies. CocoaPods is also available
+(`pod 'Drengr'`, spec at [`ios/Drengr.podspec`](ios/Drengr.podspec)). Source and
+docs in [`ios/`](ios/).
+
+### Android (JitPack)
+
+`settings.gradle.kts`:
+
+```kotlin
+dependencyResolutionManagement {
+    repositories {
+        google(); mavenCentral()
+        maven("https://jitpack.io")
+    }
+}
+```
+
+`app/build.gradle.kts` — this repo publishes the `:drengr` module out of a
+multi-module Gradle build (root project `drengr-android` + subproject `:drengr`),
+so JitPack's per-module coordinate applies (`com.github.User.Repo:module:Tag`,
+**not** the single-artifact `com.github.User:Repo:Tag` form):
+
+```kotlin
+dependencies {
+    implementation("com.github.SharminSirajudeen.drengr-community:drengr:v0.11.0")
+}
+```
+
+Build config: [`jitpack.yml`](jitpack.yml). Source and docs in [`android/`](android/).
 
 ---
 
