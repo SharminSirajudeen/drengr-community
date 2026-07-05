@@ -161,7 +161,7 @@ so JitPack's per-module coordinate applies (`com.github.User.Repo:module:Tag`,
 
 ```kotlin
 dependencies {
-    implementation("com.github.SharminSirajudeen.drengr-community:drengr:v0.11.0")
+    implementation("com.github.SharminSirajudeen:drengr-community:v0.11.0")
 }
 ```
 
