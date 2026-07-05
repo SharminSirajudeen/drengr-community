@@ -137,11 +137,31 @@ Or in `Package.swift`:
 .package(url: "https://github.com/SharminSirajudeen/drengr-community.git", from: "0.11.0")
 ```
 
-then add `"Drengr"` to your target's dependencies. CocoaPods is also available
-(`pod 'Drengr'`, spec at [`ios/Drengr.podspec`](ios/Drengr.podspec)). Source and
-docs in [`ios/`](ios/).
+then add `"Drengr"` to your target's dependencies.
 
-### Android (JitPack)
+CocoaPods is also available:
+
+```ruby
+pod 'Drengr', '~> 0.11.0'
+```
+
+Spec at [`ios/Drengr.podspec`](ios/Drengr.podspec). Source and docs in [`ios/`](ios/).
+
+### Android (Maven Central)
+
+`app/build.gradle.kts`:
+
+```kotlin
+dependencies {
+    implementation("dev.drengr:analytics-android:0.11.0")
+}
+```
+
+No extra repository needed — `mavenCentral()` is in every default Gradle setup.
+Source and docs in [`android/`](android/).
+
+<details>
+<summary>Alternative: JitPack</summary>
 
 `settings.gradle.kts`:
 
@@ -165,7 +185,9 @@ dependencies {
 }
 ```
 
-Build config: [`jitpack.yml`](jitpack.yml). Source and docs in [`android/`](android/).
+Build config: [`jitpack.yml`](jitpack.yml).
+
+</details>
 
 ---
 
