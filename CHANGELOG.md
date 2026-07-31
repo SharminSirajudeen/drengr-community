@@ -5,6 +5,29 @@ hands on mobile devices (Android + iOS).
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## 0.10.4 — 2026-07-31
+
+### Fixed
+- **Every default model was dead or dying.** Fireworks' Llama 3.3 returns 404,
+  `gemini-2.0-flash` shut down 2026-06-01, `claude-sonnet-4-20250514` retired
+  2026-06-15, and Groq's `llama-3.3-70b-versatile` is decommissioned 2026-08-16.
+  All defaults now point at current models that accept image input, since the
+  OODA loop escalates to vision when screen elements are unlabeled.
+- **Failures reported their real cause.** A test failure printed
+  `Error: LLM call failed` regardless of what actually happened; the underlying
+  status and provider message were built and then discarded when the error chain
+  was flattened. A dead model now reports its 404 and the provider's own text.
+- **`doctor` agreed with reality.** It checked four hardcoded key names and
+  missed Groq, Together, and Fireworks, so it reported "not set" for working
+  configurations. It now resolves exactly the way `run` and `test` do, and
+  reports the provider and model it would use.
+
+### Added
+- **`DRENGR_BASE_URL`** — point Drengr at any OpenAI-compatible endpoint
+  (OpenRouter, LiteLLM, vLLM, a self-hosted gateway) without a new provider
+  variant or a rebuild. `doctor` shows the override when set.
+- **`DRENGR_MODEL`** documented — it already worked, it was just undocumented.
+
 ## 0.10.3 — 2026-07-31
 
 ### Fixed
