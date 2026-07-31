@@ -5,6 +5,22 @@ hands on mobile devices (Android + iOS).
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## 0.10.3 — 2026-07-31
+
+### Fixed
+- **`drengr test` / `drengr ci` auto-detects the suite file again.** The
+  auto-detect work (`file` became optional, with `drengr-tests.yml` /
+  `drengr-tests.yaml` / `.drengr/tests.yml` candidates) landed after 0.10.2 was
+  tagged, so every published build still demanded an explicit `<FILE>` and the
+  documented `drengr test --format json` invocation exited 2.
+- **npm tarball no longer ships a stale binary.** `files` listed `bin/`, which
+  packed whatever local build artifact happened to sit there; 0.10.2 shipped a
+  3.9 MB binary from an old build. Narrowed to `bin/drengr.js` — the real
+  binary is fetched by `postinstall` for the host platform, as intended.
+- **Release artifacts expire after a day.** The release workflow uploaded
+  intermediate build tarballs with no retention, which accumulated until the
+  Actions storage quota was exhausted and every build job failed at upload.
+
 ## 0.10.2 — 2026-06-23
 
 ### Added
