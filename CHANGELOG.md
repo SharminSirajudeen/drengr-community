@@ -5,6 +5,24 @@ hands on mobile devices (Android + iOS).
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## 0.10.5 — 2026-08-01
+
+### Added
+- **Every run says which model it will use and why.** Before a suite starts,
+  Drengr prints the provider, the model, whether that came from `DRENGR_MODEL`
+  or the built-in default, and the endpoint when one is overridden. A failed run
+  no longer leaves you guessing what was actually driving the device.
+- **`model` and `base-url` inputs on the GitHub Action.** The action could set a
+  provider but not a model or an endpoint, so `DRENGR_BASE_URL` was unreachable
+  from CI. Point the action at OpenRouter, LiteLLM, vLLM, or your own gateway and
+  run any model without waiting on Drengr to add a provider.
+
+### Fixed
+- **A blank `DRENGR_MODEL` was used as the model name.** CI runners export empty
+  strings for unset inputs, so an unset `model:` would have sent `""` as the
+  model — the same trap the key resolver already guarded against, on the path
+  that was about to become reachable from the Action.
+
 ## 0.10.4 — 2026-07-31
 
 ### Fixed
