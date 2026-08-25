@@ -5,6 +5,19 @@ hands on mobile devices (Android + iOS).
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## 0.10.6 — 2026-08-01
+
+### Fixed
+- **`drengr run` told you less than `drengr test` did.** Both resolve the same
+  client, but `run` carried its own older announcement: a debug-formatted
+  provider name, no indication whether the model came from `DRENGR_MODEL` or the
+  built-in default, and no endpoint line when `DRENGR_BASE_URL` was set. Both
+  paths now print the same line from one function.
+- **The setup path still flattened its errors.** `drengr test` reported only the
+  outer context when the LLM client could not be built — an unresolvable key or
+  endpoint said less than it knew, four lines below a sibling that already
+  printed the full chain.
+
 ## 0.10.5 — 2026-08-01
 
 ### Added
