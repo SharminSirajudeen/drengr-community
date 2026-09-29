@@ -1,0 +1,26 @@
+{
+  "": {
+    "swift-dependencies": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/primary.swiftdeps"
+  },
+  "/Users/sharminsirajudeen/Projects/drengr-community/ios/Tests/DrengrTests/IdentifyTests.swift": {
+    "dependencies": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/IdentifyTests.d",
+    "object": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/IdentifyTests.swift.o",
+    "swiftmodule": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/IdentifyTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/IdentifyTests.swiftdeps",
+    "diagnostics": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/IdentifyTests.dia"
+  },
+  "/Users/sharminsirajudeen/Projects/drengr-community/ios/Tests/DrengrTests/RedactTests.swift": {
+    "dependencies": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/RedactTests.d",
+    "object": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/RedactTests.swift.o",
+    "swiftmodule": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/RedactTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/RedactTests.swiftdeps",
+    "diagnostics": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/RedactTests.dia"
+  },
+  "/Users/sharminsirajudeen/Projects/drengr-community/ios/Tests/DrengrTests/URLSessionCaptureTests.swift": {
+    "dependencies": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/URLSessionCaptureTests.d",
+    "object": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/URLSessionCaptureTests.swift.o",
+    "swiftmodule": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/URLSessionCaptureTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/URLSessionCaptureTests.swiftdeps",
+    "diagnostics": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/URLSessionCaptureTests.dia"
+  }
+}

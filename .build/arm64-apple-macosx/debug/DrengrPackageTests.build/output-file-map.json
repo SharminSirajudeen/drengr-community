@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrPackageTests.build/primary.swiftdeps"
+  },
+  "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrPackageTests.build/runner.d",
+    "object": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrPackageTests.build/runner.dia"
+  }
+}

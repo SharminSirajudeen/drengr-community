@@ -1,0 +1,698 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrPackageTests.xctest/Contents/MacOS/DrengrPackageTests",
+      "packagePath" : "/Users/sharminsirajudeen/Projects/drengr-community",
+      "productName" : "DrengrPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.Drengr-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/sources",
+      "importPath" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/ios/Sources/Drengr/Drengr.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/ios/Sources/Drengr/IngestSink.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/ios/Sources/Drengr/NetworkEvent.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/ios/Sources/Drengr/Redact.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/ios/Sources/Drengr/URLSessionCapture.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Drengr",
+      "moduleOutputPath" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Modules/Drengr.swiftmodule",
+      "objects" : [
+        "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/Drengr.swift.o",
+        "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/IngestSink.swift.o",
+        "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/NetworkEvent.swift.o",
+        "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/Redact.swift.o",
+        "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/URLSessionCapture.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx11.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j14",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/include/Drengr-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/Drengr.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/IngestSink.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/NetworkEvent.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/Redact.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/URLSessionCapture.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Modules/Drengr.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/sharminsirajudeen/Projects/drengr-community/ios/Sources/Drengr/Drengr.swift",
+        "/Users/sharminsirajudeen/Projects/drengr-community/ios/Sources/Drengr/IngestSink.swift",
+        "/Users/sharminsirajudeen/Projects/drengr-community/ios/Sources/Drengr/NetworkEvent.swift",
+        "/Users/sharminsirajudeen/Projects/drengr-community/ios/Sources/Drengr/Redact.swift",
+        "/Users/sharminsirajudeen/Projects/drengr-community/ios/Sources/Drengr/URLSessionCapture.swift"
+      ],
+      "tempsPath" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.DrengrPackageTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrPackageTests.build/sources",
+      "importPath" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Modules/DrengrTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "DrengrPackageTests",
+      "moduleOutputPath" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Modules/DrengrPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx11.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j14",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrPackageTests.build/include/DrengrPackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Modules/DrengrPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.DrengrTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/sources",
+      "importPath" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/ios/Tests/DrengrTests/IdentifyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/ios/Tests/DrengrTests/RedactTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/ios/Tests/DrengrTests/URLSessionCaptureTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Modules/Drengr.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "DrengrTests",
+      "moduleOutputPath" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Modules/DrengrTests.swiftmodule",
+      "objects" : [
+        "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/IdentifyTests.swift.o",
+        "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/RedactTests.swift.o",
+        "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/URLSessionCaptureTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j14",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/IdentifyTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/RedactTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/URLSessionCaptureTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Modules/DrengrTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/sharminsirajudeen/Projects/drengr-community/ios/Tests/DrengrTests/IdentifyTests.swift",
+        "/Users/sharminsirajudeen/Projects/drengr-community/ios/Tests/DrengrTests/RedactTests.swift",
+        "/Users/sharminsirajudeen/Projects/drengr-community/ios/Tests/DrengrTests/URLSessionCaptureTests.swift"
+      ],
+      "tempsPath" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "Drengr" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "Drengr",
+      "-c",
+      "/Users/sharminsirajudeen/Projects/drengr-community/ios/Sources/Drengr/Drengr.swift",
+      "/Users/sharminsirajudeen/Projects/drengr-community/ios/Sources/Drengr/IngestSink.swift",
+      "/Users/sharminsirajudeen/Projects/drengr-community/ios/Sources/Drengr/NetworkEvent.swift",
+      "/Users/sharminsirajudeen/Projects/drengr-community/ios/Sources/Drengr/Redact.swift",
+      "/Users/sharminsirajudeen/Projects/drengr-community/ios/Sources/Drengr/URLSessionCapture.swift",
+      "-I",
+      "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx11.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j14",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/include/Drengr-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "DrengrPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "DrengrPackageTests",
+      "-c",
+      "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx11.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j14",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrPackageTests.build/include/DrengrPackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "DrengrTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "DrengrTests",
+      "-c",
+      "/Users/sharminsirajudeen/Projects/drengr-community/ios/Tests/DrengrTests/IdentifyTests.swift",
+      "/Users/sharminsirajudeen/Projects/drengr-community/ios/Tests/DrengrTests/RedactTests.swift",
+      "/Users/sharminsirajudeen/Projects/drengr-community/ios/Tests/DrengrTests/URLSessionCaptureTests.swift",
+      "-I",
+      "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j14",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "Drengr" : [
+
+    ],
+    "DrengrPackageTests" : [
+      "DrengrTests",
+      "Drengr"
+    ],
+    "DrengrTests" : [
+      "Drengr"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/ios/Sources/Drengr/Drengr.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/ios/Sources/Drengr/IngestSink.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/ios/Sources/Drengr/NetworkEvent.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/ios/Sources/Drengr/Redact.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/ios/Sources/Drengr/URLSessionCapture.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/sources"
+    },
+    "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrPackageTests.build/sources"
+    },
+    "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/Drengr.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/IngestSink.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/NetworkEvent.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/Redact.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/URLSessionCapture.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/IdentifyTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/RedactTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/URLSessionCaptureTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/ios/Tests/DrengrTests/IdentifyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/ios/Tests/DrengrTests/RedactTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sharminsirajudeen/Projects/drengr-community/ios/Tests/DrengrTests/URLSessionCaptureTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/DrengrTests.build/sources"
+    },
+    "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "": {
+    "swift-dependencies": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/primary.swiftdeps"
+  },
+  "/Users/sharminsirajudeen/Projects/drengr-community/ios/Sources/Drengr/Drengr.swift": {
+    "dependencies": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/Drengr.d",
+    "object": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/Drengr.swift.o",
+    "swiftmodule": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/Drengr~partial.swiftmodule",
+    "swift-dependencies": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/Drengr.swiftdeps",
+    "diagnostics": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/Drengr.dia"
+  },
+  "/Users/sharminsirajudeen/Projects/drengr-community/ios/Sources/Drengr/IngestSink.swift": {
+    "dependencies": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/IngestSink.d",
+    "object": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/IngestSink.swift.o",
+    "swiftmodule": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/IngestSink~partial.swiftmodule",
+    "swift-dependencies": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/IngestSink.swiftdeps",
+    "diagnostics": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/IngestSink.dia"
+  },
+  "/Users/sharminsirajudeen/Projects/drengr-community/ios/Sources/Drengr/NetworkEvent.swift": {
+    "dependencies": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/NetworkEvent.d",
+    "object": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/NetworkEvent.swift.o",
+    "swiftmodule": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/NetworkEvent~partial.swiftmodule",
+    "swift-dependencies": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/NetworkEvent.swiftdeps",
+    "diagnostics": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/NetworkEvent.dia"
+  },
+  "/Users/sharminsirajudeen/Projects/drengr-community/ios/Sources/Drengr/Redact.swift": {
+    "dependencies": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/Redact.d",
+    "object": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/Redact.swift.o",
+    "swiftmodule": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/Redact~partial.swiftmodule",
+    "swift-dependencies": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/Redact.swiftdeps",
+    "diagnostics": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/Redact.dia"
+  },
+  "/Users/sharminsirajudeen/Projects/drengr-community/ios/Sources/Drengr/URLSessionCapture.swift": {
+    "dependencies": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/URLSessionCapture.d",
+    "object": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/URLSessionCapture.swift.o",
+    "swiftmodule": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/URLSessionCapture~partial.swiftmodule",
+    "swift-dependencies": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/URLSessionCapture.swiftdeps",
+    "diagnostics": "/Users/sharminsirajudeen/Projects/drengr-community/.build/arm64-apple-macosx/debug/Drengr.build/URLSessionCapture.dia"
+  }
+}
